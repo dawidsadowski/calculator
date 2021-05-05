@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <LinearLayout
+        android:id="@+id/mainMenuLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/appNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="25dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/ic_description_calculator_icon"
+            app:srcCompat="@drawable/ic_calculator" />
+
+        <Button
+            android:id="@+id/simpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="5dp"
+            android:layout_weight="1"
+            android:onClick="simpleButtonAction"
+            android:text="@string/button_simple"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/advancedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="5dp"
+            android:layout_weight="1"
+            android:onClick="advancedButtonAction"
+            android:text="@string/button_advanced"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/aboutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="5dp"
+            android:layout_weight="1"
+            android:onClick="aboutButtonAction"
+            android:text="@string/button_about"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="5dp"
+            android:layout_weight="1"
+            android:onClick="exitApplication"
+            android:text="@string/button_exit"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

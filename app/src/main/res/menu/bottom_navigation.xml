@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_simple"
+        android:icon="@drawable/ic_baseline_calculate_24"
+        android:title="@string/button_simple" />
+
+    <item
+        android:id="@+id/nav_advanced"
+        android:icon="@drawable/ic_baseline_superscript_24"
+        android:title="@string/button_advanced" />
+
+</menu>

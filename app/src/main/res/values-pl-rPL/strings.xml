@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalkulator</string>
+    <string name="button_simple">Prosty</string>
+    <string name="button_advanced">Zaawansowany</string>
+    <string name="button_about">O aplikacji</string>
+    <string name="button_exit">Wyjście</string>
+    <string name="app_icon_made_by">Autor ikony:</string>
+    <string name="error_zero_division">Nie dziel przez zero!</string>
+    <string name="made_by">Autor:</string>
+    <string name="incorrect_number_passed">Wprowadzono nieprawidłową liczbę!</string>
+    <string name="limit_reached">Osiągnięto limit!</string>
+</resources>
